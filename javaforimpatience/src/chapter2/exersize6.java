@@ -50,7 +50,7 @@ final class Point1
 		this.x *= ammount;
 		this.y *= ammount;
 		
-		return new Point1(this.y,this.y);
+		return new Point1(this.x,this.y);
 		
 	}	
 }
